@@ -13,6 +13,10 @@ python:
   install:
     - requirements: docs/sphinx/requirements.txt
 
+# Environment setup (install doxygen if not available)
+build:
+  apt_packages:
+    - doxygen
 commands:
   - cd docs && doxygen DoxyFile
 
