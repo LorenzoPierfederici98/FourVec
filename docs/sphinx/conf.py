@@ -6,11 +6,9 @@
 # -- Project information -----------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
-import subprocess
 import os
 import sys
 sys.path.insert(0, os.path.abspath('../src'))
-subprocess.call('cd .. ; doxygen', shell=True)
 
 project = 'Four Vector'
 copyright = '2025, Lorenzo Pierfederici'
@@ -20,7 +18,11 @@ release = '0.0.1'
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
 
-extensions = []
+extensions = ["breathe"]
+breathe_projects = {
+    "Four Vector": "../xml"
+}
+breathe_default_project = "Four Vector"
 
 templates_path = ['_templates']
 exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
@@ -32,4 +34,4 @@ exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
 
 html_theme = 'alabaster'
 html_static_path = ['_static']
-html_extra_path = ['../build/html/index.html']
+

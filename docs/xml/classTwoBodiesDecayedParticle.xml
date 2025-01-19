@@ -1,0 +1,140 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classTwoBodiesDecayedParticle" kind="class" language="C++" prot="public">
+    <compoundname>TwoBodiesDecayedParticle</compoundname>
+    <basecompoundref refid="classParticle" prot="public" virt="non-virtual">Particle</basecompoundref>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classTwoBodiesDecayedParticle_1a83d827b03e9699ca20b8677c80ff898a" prot="private" static="no" mutable="no">
+        <type><ref refid="classParticle" kindref="compound">Particle</ref></type>
+        <definition>Particle TwoBodiesDecayedParticle::m_p1</definition>
+        <argsstring></argsstring>
+        <name>m_p1</name>
+        <qualifiedname>TwoBodiesDecayedParticle::m_p1</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/c/Users/Lorenzo/Desktop/FourVec/src/four_vec.cc" line="87" column="10" bodyfile="/mnt/c/Users/Lorenzo/Desktop/FourVec/src/four_vec.cc" bodystart="87" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classTwoBodiesDecayedParticle_1a85b810437d73e1358641b3015f8f6203" prot="private" static="no" mutable="no">
+        <type><ref refid="classParticle" kindref="compound">Particle</ref></type>
+        <definition>Particle TwoBodiesDecayedParticle::m_p2</definition>
+        <argsstring></argsstring>
+        <name>m_p2</name>
+        <qualifiedname>TwoBodiesDecayedParticle::m_p2</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/c/Users/Lorenzo/Desktop/FourVec/src/four_vec.cc" line="88" column="10" bodyfile="/mnt/c/Users/Lorenzo/Desktop/FourVec/src/four_vec.cc" bodystart="88" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classTwoBodiesDecayedParticle_1ae0a5b43f2534a774e6e8b3701c20b34c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>TwoBodiesDecayedParticle::TwoBodiesDecayedParticle</definition>
+        <argsstring>(const Particle &amp;p1, const Particle &amp;p2, int pid=0)</argsstring>
+        <name>TwoBodiesDecayedParticle</name>
+        <qualifiedname>TwoBodiesDecayedParticle::TwoBodiesDecayedParticle</qualifiedname>
+        <param>
+          <type>const <ref refid="classParticle" kindref="compound">Particle</ref> &amp;</type>
+          <declname>p1</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classParticle" kindref="compound">Particle</ref> &amp;</type>
+          <declname>p2</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>pid</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/c/Users/Lorenzo/Desktop/FourVec/src/four_vec.cc" line="91" column="1" bodyfile="/mnt/c/Users/Lorenzo/Desktop/FourVec/src/four_vec.cc" bodystart="91" bodyend="92"/>
+      </memberdef>
+      <memberdef kind="function" id="classTwoBodiesDecayedParticle_1afa18e6b11ac9ae32fd64e6cf6eadafd8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TwoBodiesDecayedParticle::print</definition>
+        <argsstring>()</argsstring>
+        <name>print</name>
+        <qualifiedname>TwoBodiesDecayedParticle::print</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/c/Users/Lorenzo/Desktop/FourVec/src/four_vec.cc" line="94" column="6" bodyfile="/mnt/c/Users/Lorenzo/Desktop/FourVec/src/four_vec.cc" bodystart="94" bodyend="98"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="3">
+        <label>FourVec</label>
+        <link refid="classFourVec"/>
+      </node>
+      <node id="2">
+        <label>Particle</label>
+        <link refid="classParticle"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>TwoBodiesDecayedParticle</label>
+        <link refid="classTwoBodiesDecayedParticle"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="3">
+        <label>FourVec</label>
+        <link refid="classFourVec"/>
+      </node>
+      <node id="2">
+        <label>Particle</label>
+        <link refid="classParticle"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>TwoBodiesDecayedParticle</label>
+        <link refid="classTwoBodiesDecayedParticle"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/mnt/c/Users/Lorenzo/Desktop/FourVec/src/four_vec.cc" line="85" column="1" bodyfile="/mnt/c/Users/Lorenzo/Desktop/FourVec/src/four_vec.cc" bodystart="85" bodyend="99"/>
+    <listofallmembers>
+      <member refid="classFourVec_1ac6ba752a1f90e273fd281ac26c71783d" prot="public" virt="non-virtual"><scope>TwoBodiesDecayedParticle</scope><name>e</name></member>
+      <member refid="classFourVec_1abb86ddcb0da68e65f698c596e4895417" prot="public" virt="non-virtual"><scope>TwoBodiesDecayedParticle</scope><name>FourVec</name></member>
+      <member refid="classFourVec_1acdea6ad7015a6102d3742e1e015ffbed" prot="public" virt="non-virtual"><scope>TwoBodiesDecayedParticle</scope><name>FourVec</name></member>
+      <member refid="classFourVec_1ad9ebac476dae10a5851a46e9886d81dd" prot="public" virt="non-virtual"><scope>TwoBodiesDecayedParticle</scope><name>m</name></member>
+      <member refid="classTwoBodiesDecayedParticle_1a83d827b03e9699ca20b8677c80ff898a" prot="private" virt="non-virtual"><scope>TwoBodiesDecayedParticle</scope><name>m_p1</name></member>
+      <member refid="classTwoBodiesDecayedParticle_1a85b810437d73e1358641b3015f8f6203" prot="private" virt="non-virtual"><scope>TwoBodiesDecayedParticle</scope><name>m_p2</name></member>
+      <member refid="classFourVec_1ac554c6b3b2cde72f732cf2c7a4de35b8" prot="public" virt="non-virtual"><scope>TwoBodiesDecayedParticle</scope><name>operator*</name></member>
+      <member refid="classFourVec_1aebe2dceac42c3efe27d9a295812d93a0" prot="public" virt="non-virtual"><scope>TwoBodiesDecayedParticle</scope><name>operator+</name></member>
+      <member refid="classParticle_1a44177e42f70ca3ecdb39d151960a8a82" prot="public" virt="non-virtual"><scope>TwoBodiesDecayedParticle</scope><name>Particle</name></member>
+      <member refid="classParticle_1a40f4c7e248029d72e7714b7802d5e5e1" prot="public" virt="non-virtual"><scope>TwoBodiesDecayedParticle</scope><name>Particle</name></member>
+      <member refid="classParticle_1a4ae35210f2753f489be8a99f1d538ade" prot="public" virt="non-virtual"><scope>TwoBodiesDecayedParticle</scope><name>particleID</name></member>
+      <member refid="classTwoBodiesDecayedParticle_1afa18e6b11ac9ae32fd64e6cf6eadafd8" prot="public" virt="non-virtual"><scope>TwoBodiesDecayedParticle</scope><name>print</name></member>
+      <member refid="classFourVec_1aeb57811c3e6e44b0d6b79b0bbda03213" prot="public" virt="non-virtual"><scope>TwoBodiesDecayedParticle</scope><name>pt</name></member>
+      <member refid="classFourVec_1ac166f6b0ea4c81498039b9cb353c4b42" prot="public" virt="non-virtual"><scope>TwoBodiesDecayedParticle</scope><name>px</name></member>
+      <member refid="classFourVec_1a6509f708ade062b9dbd6c1c956a79587" prot="public" virt="non-virtual"><scope>TwoBodiesDecayedParticle</scope><name>py</name></member>
+      <member refid="classFourVec_1aa9010f599deb4a9518c0d3b5f2067ae5" prot="public" virt="non-virtual"><scope>TwoBodiesDecayedParticle</scope><name>pz</name></member>
+      <member refid="classTwoBodiesDecayedParticle_1ae0a5b43f2534a774e6e8b3701c20b34c" prot="public" virt="non-virtual"><scope>TwoBodiesDecayedParticle</scope><name>TwoBodiesDecayedParticle</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

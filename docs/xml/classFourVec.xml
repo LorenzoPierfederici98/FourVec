@@ -1,0 +1,311 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classFourVec" kind="class" language="C++" prot="public">
+    <compoundname>FourVec</compoundname>
+    <derivedcompoundref refid="classParticle" prot="public" virt="non-virtual">Particle</derivedcompoundref>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classFourVec_1a3ddb38d513e6324cffb394f18ffbbb09" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float FourVec::p_x</definition>
+        <argsstring></argsstring>
+        <name>p_x</name>
+        <qualifiedname>FourVec::p_x</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/c/Users/Lorenzo/Desktop/FourVec/src/four_vec.cc" line="12" column="7" bodyfile="/mnt/c/Users/Lorenzo/Desktop/FourVec/src/four_vec.cc" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classFourVec_1ac887d84d01831c5250a62b87bbb696ff" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float FourVec::p_y</definition>
+        <argsstring></argsstring>
+        <name>p_y</name>
+        <qualifiedname>FourVec::p_y</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/c/Users/Lorenzo/Desktop/FourVec/src/four_vec.cc" line="12" column="11" bodyfile="/mnt/c/Users/Lorenzo/Desktop/FourVec/src/four_vec.cc" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classFourVec_1a6207a250ad48c7536af26bdf1309f068" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float FourVec::p_z</definition>
+        <argsstring></argsstring>
+        <name>p_z</name>
+        <qualifiedname>FourVec::p_z</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/c/Users/Lorenzo/Desktop/FourVec/src/four_vec.cc" line="12" column="15" bodyfile="/mnt/c/Users/Lorenzo/Desktop/FourVec/src/four_vec.cc" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classFourVec_1a454240c7f8a40a42cb6438a3d0d4ae84" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float FourVec::E</definition>
+        <argsstring></argsstring>
+        <name>E</name>
+        <qualifiedname>FourVec::E</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/c/Users/Lorenzo/Desktop/FourVec/src/four_vec.cc" line="12" column="19" bodyfile="/mnt/c/Users/Lorenzo/Desktop/FourVec/src/four_vec.cc" bodystart="12" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classFourVec_1abb86ddcb0da68e65f698c596e4895417" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>FourVec::FourVec</definition>
+        <argsstring>(float px, float py, float pz, float en)</argsstring>
+        <name>FourVec</name>
+        <qualifiedname>FourVec::FourVec</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>px</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>py</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>pz</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>en</declname>
+        </param>
+        <briefdescription>
+<para>Class describing a 4-vector. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/c/Users/Lorenzo/Desktop/FourVec/src/four_vec.cc" line="20" column="1" bodyfile="/mnt/c/Users/Lorenzo/Desktop/FourVec/src/four_vec.cc" bodystart="20" bodyend="21"/>
+      </memberdef>
+      <memberdef kind="function" id="classFourVec_1acdea6ad7015a6102d3742e1e015ffbed" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>FourVec::FourVec</definition>
+        <argsstring>()</argsstring>
+        <name>FourVec</name>
+        <qualifiedname>FourVec::FourVec</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/c/Users/Lorenzo/Desktop/FourVec/src/four_vec.cc" line="23" column="1" bodyfile="/mnt/c/Users/Lorenzo/Desktop/FourVec/src/four_vec.cc" bodystart="23" bodyend="23"/>
+      </memberdef>
+      <memberdef kind="function" id="classFourVec_1ac166f6b0ea4c81498039b9cb353c4b42" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>float</type>
+        <definition>float FourVec::px</definition>
+        <argsstring>()</argsstring>
+        <name>px</name>
+        <qualifiedname>FourVec::px</qualifiedname>
+        <briefdescription>
+<para>x-component of the momemntum </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>float </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/c/Users/Lorenzo/Desktop/FourVec/src/four_vec.cc" line="30" column="7" bodyfile="/mnt/c/Users/Lorenzo/Desktop/FourVec/src/four_vec.cc" bodystart="30" bodyend="30"/>
+      </memberdef>
+      <memberdef kind="function" id="classFourVec_1a6509f708ade062b9dbd6c1c956a79587" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>float</type>
+        <definition>float FourVec::py</definition>
+        <argsstring>()</argsstring>
+        <name>py</name>
+        <qualifiedname>FourVec::py</qualifiedname>
+        <briefdescription>
+<para>y-component of the momemntum </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>float </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/c/Users/Lorenzo/Desktop/FourVec/src/four_vec.cc" line="36" column="7" bodyfile="/mnt/c/Users/Lorenzo/Desktop/FourVec/src/four_vec.cc" bodystart="36" bodyend="36"/>
+      </memberdef>
+      <memberdef kind="function" id="classFourVec_1aa9010f599deb4a9518c0d3b5f2067ae5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>float</type>
+        <definition>float FourVec::pz</definition>
+        <argsstring>()</argsstring>
+        <name>pz</name>
+        <qualifiedname>FourVec::pz</qualifiedname>
+        <briefdescription>
+<para>z-component of the momemntum </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>float </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/c/Users/Lorenzo/Desktop/FourVec/src/four_vec.cc" line="42" column="7" bodyfile="/mnt/c/Users/Lorenzo/Desktop/FourVec/src/four_vec.cc" bodystart="42" bodyend="42"/>
+      </memberdef>
+      <memberdef kind="function" id="classFourVec_1ac6ba752a1f90e273fd281ac26c71783d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>float</type>
+        <definition>float FourVec::e</definition>
+        <argsstring>()</argsstring>
+        <name>e</name>
+        <qualifiedname>FourVec::e</qualifiedname>
+        <briefdescription>
+<para>energy </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>float </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/c/Users/Lorenzo/Desktop/FourVec/src/four_vec.cc" line="48" column="7" bodyfile="/mnt/c/Users/Lorenzo/Desktop/FourVec/src/four_vec.cc" bodystart="48" bodyend="48"/>
+      </memberdef>
+      <memberdef kind="function" id="classFourVec_1aeb57811c3e6e44b0d6b79b0bbda03213" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>float</type>
+        <definition>float FourVec::pt</definition>
+        <argsstring>()</argsstring>
+        <name>pt</name>
+        <qualifiedname>FourVec::pt</qualifiedname>
+        <briefdescription>
+<para>transverse component of the momentum <formula id="0">\sqrt{p_x^2 + p_y^2}</formula> (c=1) </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>float </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/c/Users/Lorenzo/Desktop/FourVec/src/four_vec.cc" line="55" column="7" bodyfile="/mnt/c/Users/Lorenzo/Desktop/FourVec/src/four_vec.cc" bodystart="55" bodyend="55"/>
+      </memberdef>
+      <memberdef kind="function" id="classFourVec_1ad9ebac476dae10a5851a46e9886d81dd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>float</type>
+        <definition>float FourVec::m</definition>
+        <argsstring>()</argsstring>
+        <name>m</name>
+        <qualifiedname>FourVec::m</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/c/Users/Lorenzo/Desktop/FourVec/src/four_vec.cc" line="56" column="7" bodyfile="/mnt/c/Users/Lorenzo/Desktop/FourVec/src/four_vec.cc" bodystart="56" bodyend="56"/>
+      </memberdef>
+      <memberdef kind="function" id="classFourVec_1aebe2dceac42c3efe27d9a295812d93a0" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classFourVec" kindref="compound">FourVec</ref></type>
+        <definition>FourVec FourVec::operator+</definition>
+        <argsstring>(const FourVec &amp;obj) const</argsstring>
+        <name>operator+</name>
+        <qualifiedname>FourVec::operator+</qualifiedname>
+        <param>
+          <type>const <ref refid="classFourVec" kindref="compound">FourVec</ref> &amp;</type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/c/Users/Lorenzo/Desktop/FourVec/src/four_vec.cc" line="59" column="9" bodyfile="/mnt/c/Users/Lorenzo/Desktop/FourVec/src/four_vec.cc" bodystart="59" bodyend="62"/>
+      </memberdef>
+      <memberdef kind="function" id="classFourVec_1ac554c6b3b2cde72f732cf2c7a4de35b8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>class T</type>
+          </param>
+        </templateparamlist>
+        <type><ref refid="classFourVec" kindref="compound">FourVec</ref></type>
+        <definition>FourVec FourVec::operator*</definition>
+        <argsstring>(T scalar)</argsstring>
+        <name>operator*</name>
+        <qualifiedname>FourVec::operator*</qualifiedname>
+        <param>
+          <type>T</type>
+          <declname>scalar</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/c/Users/Lorenzo/Desktop/FourVec/src/four_vec.cc" line="65" column="9" bodyfile="/mnt/c/Users/Lorenzo/Desktop/FourVec/src/four_vec.cc" bodystart="65" bodyend="68"/>
+      </memberdef>
+      <memberdef kind="function" id="classFourVec_1afd872048e2f53f24aa1c3d6ad579c580" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FourVec::print</definition>
+        <argsstring>()</argsstring>
+        <name>print</name>
+        <qualifiedname>FourVec::print</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/c/Users/Lorenzo/Desktop/FourVec/src/four_vec.cc" line="70" column="6" bodyfile="/mnt/c/Users/Lorenzo/Desktop/FourVec/src/four_vec.cc" bodystart="70" bodyend="70"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>FourVec</label>
+        <link refid="classFourVec"/>
+      </node>
+      <node id="2">
+        <label>Particle</label>
+        <link refid="classParticle"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>TwoBodiesDecayedParticle</label>
+        <link refid="classTwoBodiesDecayedParticle"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <location file="/mnt/c/Users/Lorenzo/Desktop/FourVec/src/four_vec.cc" line="10" column="1" bodyfile="/mnt/c/Users/Lorenzo/Desktop/FourVec/src/four_vec.cc" bodystart="10" bodyend="71"/>
+    <listofallmembers>
+      <member refid="classFourVec_1a454240c7f8a40a42cb6438a3d0d4ae84" prot="private" virt="non-virtual"><scope>FourVec</scope><name>E</name></member>
+      <member refid="classFourVec_1ac6ba752a1f90e273fd281ac26c71783d" prot="public" virt="non-virtual"><scope>FourVec</scope><name>e</name></member>
+      <member refid="classFourVec_1abb86ddcb0da68e65f698c596e4895417" prot="public" virt="non-virtual"><scope>FourVec</scope><name>FourVec</name></member>
+      <member refid="classFourVec_1acdea6ad7015a6102d3742e1e015ffbed" prot="public" virt="non-virtual"><scope>FourVec</scope><name>FourVec</name></member>
+      <member refid="classFourVec_1ad9ebac476dae10a5851a46e9886d81dd" prot="public" virt="non-virtual"><scope>FourVec</scope><name>m</name></member>
+      <member refid="classFourVec_1ac554c6b3b2cde72f732cf2c7a4de35b8" prot="public" virt="non-virtual"><scope>FourVec</scope><name>operator*</name></member>
+      <member refid="classFourVec_1aebe2dceac42c3efe27d9a295812d93a0" prot="public" virt="non-virtual"><scope>FourVec</scope><name>operator+</name></member>
+      <member refid="classFourVec_1a3ddb38d513e6324cffb394f18ffbbb09" prot="private" virt="non-virtual"><scope>FourVec</scope><name>p_x</name></member>
+      <member refid="classFourVec_1ac887d84d01831c5250a62b87bbb696ff" prot="private" virt="non-virtual"><scope>FourVec</scope><name>p_y</name></member>
+      <member refid="classFourVec_1a6207a250ad48c7536af26bdf1309f068" prot="private" virt="non-virtual"><scope>FourVec</scope><name>p_z</name></member>
+      <member refid="classFourVec_1afd872048e2f53f24aa1c3d6ad579c580" prot="public" virt="non-virtual"><scope>FourVec</scope><name>print</name></member>
+      <member refid="classFourVec_1aeb57811c3e6e44b0d6b79b0bbda03213" prot="public" virt="non-virtual"><scope>FourVec</scope><name>pt</name></member>
+      <member refid="classFourVec_1ac166f6b0ea4c81498039b9cb353c4b42" prot="public" virt="non-virtual"><scope>FourVec</scope><name>px</name></member>
+      <member refid="classFourVec_1a6509f708ade062b9dbd6c1c956a79587" prot="public" virt="non-virtual"><scope>FourVec</scope><name>py</name></member>
+      <member refid="classFourVec_1aa9010f599deb4a9518c0d3b5f2067ae5" prot="public" virt="non-virtual"><scope>FourVec</scope><name>pz</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>
