@@ -1,3 +1,4 @@
 breathe
 sphinx
 cloud-sptheme
+sphinx-wagtail-theme
