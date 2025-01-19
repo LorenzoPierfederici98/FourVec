@@ -6,10 +6,12 @@ build:
   os: ubuntu-22.04
   tools:
     python: "3.10"
+  apt_packages:
+    - doxygen
 
   # Pre-build commands
   commands:
-    - cd docs && doxygen DoxyFile
+    - cd docs && doxygen
 
 # Build documentation in the docs/sphinx directory
 sphinx:
@@ -19,6 +21,7 @@ sphinx:
 python:
   install:
     - requirements: docs/sphinx/requirements.txt
+
 
 
         
