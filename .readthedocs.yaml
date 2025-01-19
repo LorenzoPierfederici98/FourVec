@@ -11,6 +11,8 @@ build:
 
   # Pre-build commands
   commands:
+    - pwd
+    - ls -la
     - cd docs && doxygen DoxyFile
 
 # Build documentation in the docs/sphinx directory
