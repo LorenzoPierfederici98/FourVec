@@ -1,6 +1,4 @@
-#include<iostream>
-//needed for the sqrt function
-#include<math.h>
+#include "four_vec.h"
 using namespace std;
 
 /**
