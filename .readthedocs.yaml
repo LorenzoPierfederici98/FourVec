@@ -13,7 +13,8 @@ build:
   commands:
     - pwd
     - ls -la
-    - cd docs && doxygen DoxyFile
+    - cd docs
+    - doxygen DoxyFile
 
 # Build documentation in the docs/sphinx directory
 sphinx:
