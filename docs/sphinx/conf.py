@@ -8,7 +8,19 @@
 
 import os
 import sys
+import subprocess
 sys.path.insert(0, os.path.abspath('../src'))
+
+def run_doxygen():
+    doxygen_path = os.path.abspath("../DoxyFile")  # Adjust based on the location
+    if os.path.exists(doxygen_path):
+        print("Running Doxygen...")
+        subprocess.run(["doxygen", doxygen_path], check=True)
+    else:
+        print("DoxyFile not found. Skipping Doxygen step.")
+
+run_doxygen()
+
 
 project = 'Four Vector'
 copyright = '2025, Lorenzo Pierfederici'
